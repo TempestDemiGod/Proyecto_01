@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1000px){
+    .grid{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2,auto);
+        grid-template-areas: 
+        "imagen"
+        "info";
+    } 
+    .titulo-contacto {
+        color: #57E39F;
+        position: relative;
+        left: 1rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 4rem;
+        margin-top: 6rem;
+    }
+    .texto-contacto {
+        position: relative;
+        color: white;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 1.4rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 3.4rem;
+        left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .grid-fomulario{
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(1,auto);
+        grid-template-areas: 
+        "izq"
+        "der";
+    }
+    .lad-der{
+        grid-area: der;
+        margin-top: 1rem;
+    }
+    .container-contacto {
+        padding-bottom: 2rem;
+    }
+    .lad-izq input {
+        width: 96%;
+    }
+}
