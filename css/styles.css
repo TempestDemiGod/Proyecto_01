@@ -625,9 +625,11 @@ hr {
   display: flex;
   align-items: center; }
 
-.imagen-promociona-nosotros {
+.imagen-promocional-nosotros {
   width: 40%;
   overflow: hidden; }
+  .imagen-promocional-nosotros img {
+    width: 100%; }
 
 .circle-big {
   height: 400px;
